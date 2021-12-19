@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
-</head>
-<body>
-<div class="body">
-  sdfsdf
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="/" class="header__logo-link">
+          <img src="./assets/images/logo.svg" class="logo" />
+        </a>
 
-<div class="test">
-  black
-</div>
-</body>
+        <a href="#" class="header__join-link">Вступайте в клуб</a>
+
+        <a href="#" class="link-registration">Зарегистрироваться</a>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="club-chess">
+        <div class="club-chess__wrap container">
+          <div class="club-chess__badge">Клуб</div>
+
+          <h1 class="club-chess__title section__title">Правильные шахматы</h1>
+
+          <p class="club-chess__paragraph section__paragraph">
+            Приходите к нам, играть в шахматы! Сразитесь классическом поединке,
+            блиц состязании и&nbsp;бою с гройсмейстером.
+          </p>
+
+          <img
+            src="./assets/images/chess-board.svg"
+            alt="Шахматная доска фиолетовая"
+            class="chess-board chess-board_club"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

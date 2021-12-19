@@ -1,0 +1,14 @@
+.link-registration {
+  @include font-parametrs($font-default, 15, 600, normal, 1.2);
+  letter-spacing: 0.01em;
+  color: $color-white;
+  background-color: $color-green;
+  border-radius: 8px;
+  padding: 14px 28px 16px 28px;
+  text-decoration: none;
+  transition: $nice-ease;
+
+  &:hover {
+    background-color: $color-darkgreen;
+  }
+}

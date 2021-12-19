@@ -1,0 +1,12 @@
+.chess-board {
+  max-width: 416px;
+  height: auto;
+
+  &_club {
+    padding: 182px 0 0 0;
+  }
+
+  &_wars {
+    padding: 110px 0 0 0;
+  }
+}

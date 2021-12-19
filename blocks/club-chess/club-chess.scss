@@ -1,0 +1,38 @@
+.club-chess {
+  position: relative;
+  padding: 60px 0 80px 0;
+  background-color: $color-black;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 480px;
+    height: 640px;
+    background: url("../../assets/images/club-background.svg") 0 0 no-repeat;
+    background-size: cover;
+  }
+
+  &__badge {
+    display: inline-block;
+    @include font-parametrs($font-default, 16, 500, normal, 0.9);
+    color: $color-white;
+    text-transform: uppercase;
+    background-color: $color-purple;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 18px 24px 18px 18px;
+    margin: 0 0 70px 0;
+  }
+
+  &__title {
+    max-width: 470px;
+    color: $color-white;
+  }
+
+  &__paragraph {
+    max-width: 470px;
+    color: $color-white;
+  }
+}

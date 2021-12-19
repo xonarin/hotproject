@@ -29,7 +29,7 @@ gulp.task('style', function () {
     return gulp.src('./pages/index.scss') // главный файл со стилями
       .pipe(sass().on('error', sass.logError)) //сасс библиотека, если вы косячите в scss, выдаст ошибку в консоли
       .pipe(autoprefixer({browsers: ['last 3 versions'], cascade: false})) //автопрефиксы добавляет
-      .pipe(cleanCSS({compatibility: 'ie8'})) //сжимает css
+     // .pipe(cleanCSS({compatibility: 'ie8'})) //сжимает css
       .pipe(gulp.dest('./pages/')); // финальная папка куда будем сохранять index.css
   });
 
@@ -38,6 +38,7 @@ gulp.task('style', function () {
 и если они есть, то запускает задачу style, так по кругу.
 */
 gulp.task('watch', function(){
+    gulp.watch('assets/styles/*.scss',  gulp.parallel('style'))
     gulp.watch('blocks/*.scss',  gulp.parallel('style'))
     gulp.watch('blocks/*/*.scss',  gulp.parallel('style'))
     gulp.watch('pages/*.scss',  gulp.parallel('style'))
