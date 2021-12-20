@@ -435,7 +435,7 @@ template {
     right: 0;
     width: 480px;
     height: 640px;
-    background: url("../../assets/images/club-background.svg") 0 0 no-repeat;
+    background: url("../assets/images/club-background.svg") 0 0 no-repeat;
     background-size: cover; }
   .club-chess__badge {
     display: inline-block;
