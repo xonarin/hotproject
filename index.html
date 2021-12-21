@@ -39,6 +39,85 @@
           />
         </div>
       </section>
+
+      <section class="team">
+        <div class="team__wrap container">
+          <h2 class="team__title section__title">Наша команда</h2>
+
+          <p class="team__paragraph section__paragraph">
+            Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с
+            ними играть — одно удовольствие!
+          </p>
+
+          <div class="slider">
+            <!-- Additional required wrapper -->
+            <ul class="slider__list swiper-wrapper">
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-andrey.jpg"
+                  alt="Андрей"
+                  class="slider__image"
+                />
+
+                <span class="slider__name">Андрей</span>
+                <span class="slider__hobby">Шахматист, писатель.</span>
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-nikita.jpg"
+                  alt="Никита"
+                  class="slider__image"
+                />
+
+                <span class="slider__name">Никита</span>
+                <span class="slider__hobby">Шахматист, кулинар.</span>
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-alexey.jpg"
+                  alt="Алексей"
+                  class="slider__image"
+                />
+
+                <span class="slider__name">Алексей</span>
+                <span class="slider__hobby">Шахматист, геймер.</span>
+              </li>
+            </ul>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script src="./assets/scripts/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".slider", {
+        slidesPerView: 3,
+        spaceBetween: 80,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 80,
+          },
+          768: {
+            centeredSlides: false,
+            slidesPerView: 2,
+            spaceBetween: 28,
+          },
+          320: {
+            centeredSlides: true,
+            slidesPerView: 1,
+            spaceBetween: 80,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

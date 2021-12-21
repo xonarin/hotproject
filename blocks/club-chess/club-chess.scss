@@ -1,18 +1,11 @@
 .club-chess {
-  position: relative;
-  padding: 60px 0 80px 0;
+  padding: 60px 0 75px 0;
+  background-image: url("../assets/images/club-background.svg");
+  background-size: cover;
+  background-size: 480px 640px;
+  background-repeat: no-repeat;
+  background-position: right 68px;
   background-color: $color-black;
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 480px;
-    height: 640px;
-    background: url("../assets/images/club-background.svg") 0 0 no-repeat;
-    background-size: cover;
-  }
 
   &__badge {
     display: inline-block;
@@ -28,11 +21,9 @@
 
   &__title {
     max-width: 470px;
-    color: $color-white;
   }
 
   &__paragraph {
     max-width: 470px;
-    color: $color-white;
   }
 }

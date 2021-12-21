@@ -1,0 +1,12 @@
+.team {
+  padding: 80px 0 170px 0;
+  background-color: $color-purple;
+
+  &__title {
+    max-width: 535px;
+  }
+
+  &__paragraph {
+    max-width: 500px;
+  }
+}
