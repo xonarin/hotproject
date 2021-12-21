@@ -1,0 +1,15 @@
+.wars {
+  padding: 80px 0 75px 0;
+  background-image: url("../../assets/images/wars-background.svg");
+  background-repeat: no-repeat;
+  background-position: 100px bottom;
+  background-color: $color-black;
+
+  &__paragraph {
+    max-width: 490px;
+  }
+
+  &__board {
+    text-align: end;
+  }
+}

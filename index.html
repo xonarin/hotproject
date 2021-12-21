@@ -56,7 +56,7 @@
                 <img
                   src="./assets/images/team-andrey.jpg"
                   alt="Андрей"
-                  class="slider__image"
+                  class="slider__image slider__image_team"
                 />
 
                 <span class="slider__name">Андрей</span>
@@ -67,7 +67,7 @@
                 <img
                   src="./assets/images/team-nikita.jpg"
                   alt="Никита"
-                  class="slider__image"
+                  class="slider__image slider__image_team"
                 />
 
                 <span class="slider__name">Никита</span>
@@ -78,7 +78,7 @@
                 <img
                   src="./assets/images/team-alexey.jpg"
                   alt="Алексей"
-                  class="slider__image"
+                  class="slider__image slider__image_team"
                 />
 
                 <span class="slider__name">Алексей</span>
@@ -88,9 +88,82 @@
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
           </div>
+
+          <div class="team__question">
+            <h2 class="team__question-title section__title">
+              Хочешь в&nbsp;команду?
+            </h2>
+
+            <p class="team__question-paragraph section__paragraph">
+              Свяжись с нами и мы обсудим все детали присоеденения к команде.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="wars">
+        <div class="wars__wrap container">
+          <h2 class="wars__title section__title">Сражения</h2>
+
+          <p class="wars__paragraph section__paragraph">
+            Сражайтесь в парах и приятно проводите время. Если хотите прокачать
+            свои навыки — сыграйте с нашими шахматистами.
+          </p>
+
+          <div class="slider">
+            <!-- Additional required wrapper -->
+            <ul class="slider__list swiper-wrapper">
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-duel.jpg"
+                  alt="Игра в шамхаты на скамейке"
+                  class="slider__image"
+                />
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-board.jpg"
+                  alt="Шамхатная доска"
+                  class="slider__image"
+                />
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-time.jpg"
+                  alt="Шахматы на песке"
+                  class="slider__image"
+                />
+              </li>
+            </ul>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="wars__board">
+            <img
+              src="./assets/images/chess-board-green.svg"
+              alt="Шахматная доска зелёная"
+              class="chess-board chess-board_wars"
+            />
+          </div>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__wrap container">
+        <img src="./assets/images/logo.svg" class="logo logo_footer" />
+
+        <a href="#" class="link-registration link-registration_footer"
+          >Зарегистрироваться</a
+        >
+
+        <p class="footer__paragraph">Шахматный клуб в Москве.</p>
+        <p class="footer__copyright">© Chees Club.</p>
+      </div>
+    </footer>
 
     <script src="./assets/scripts/swiper-bundle.min.js"></script>
     <script>

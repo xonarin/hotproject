@@ -1,5 +1,8 @@
 .team {
-  padding: 80px 0 170px 0;
+  padding: 80px 0 172px 0;
+  background-image: url("../../assets/images/team-background.svg");
+  background-repeat: no-repeat;
+  background-position: left calc(100% - 58px);
   background-color: $color-purple;
 
   &__title {
@@ -8,5 +11,20 @@
 
   &__paragraph {
     max-width: 500px;
+  }
+
+  &__question {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 250px 0 0 0;
+
+    &-title {
+      max-width: 520px;
+    }
+
+    &-paragraph {
+      max-width: 520px;
+    }
   }
 }

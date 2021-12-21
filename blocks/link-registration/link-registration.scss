@@ -11,4 +11,9 @@
   &:hover {
     background-color: $color-darkgreen;
   }
+
+  &_footer {
+    display: inline-block;
+    margin: 0 0 60px 0;
+  }
 }
