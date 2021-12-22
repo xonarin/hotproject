@@ -1,5 +1,4 @@
 .popup {
-  display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -13,6 +12,7 @@
   transition: $nice-ease;
 
   &_opened {
+    display: flex;
     opacity: 1;
     visibility: visible;
   }

@@ -817,7 +817,7 @@ template {
       margin: 0; }
   @media only screen and (max-width: 1200px) {
     .team {
-      background: url("../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
+      background: url("../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
   @media only screen and (max-width: 1024px) {
     .team {
       padding: 50px 0 121px 0;
@@ -1035,9 +1035,6 @@ template {
         line-height: 1; } }
 
 .popup {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1056,6 +1053,9 @@ template {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
   .popup_opened {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     opacity: 1;
     visibility: visible; }
   .popup__container {
