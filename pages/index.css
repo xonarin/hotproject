@@ -671,40 +671,6 @@ template {
       .link-registration_popup {
         margin: 142px 0 15px 0; } }
 
-.section__title {
-  font-family: "Noto Sans", Arial, sans-serif;
-  font-size: 70px;
-  font-weight: 600;
-  font-style: normal;
-  line-height: 0.9;
-  color: #fff;
-  margin: 0 0 40px 0; }
-
-.section__paragraph {
-  font-family: "Noto Sans", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.3;
-  color: #fff;
-  margin: 0; }
-
-@media only screen and (max-width: 576px) {
-  .section__title {
-    font-family: "Noto Sans", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 0.9;
-    margin: 0 0 20px 0; }
-  .section__paragraph {
-    font-family: "Noto Sans", Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.3;
-    margin: 0; } }
-
 .club-chess {
   padding: 60px 0 80px 0;
   background: url("../assets/images/club-background.png") right 68px no-repeat #000; }
@@ -723,9 +689,23 @@ template {
     padding: 18px 24px 18px 18px;
     margin: 0 0 70px 0; }
   .club-chess__title {
-    max-width: 470px; }
+    max-width: 470px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.9;
+    color: #fff;
+    margin: 0 0 40px 0; }
   .club-chess__paragraph {
-    max-width: 470px; }
+    max-width: 470px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    color: #fff;
+    margin: 0; }
   @media only screen and (max-width: 1024px) {
     .club-chess {
       padding: 60px 0 49px 0;
@@ -746,8 +726,22 @@ template {
         line-height: 0.9;
         padding: 14.5px 17px 14.5px 14px;
         margin: 0 0 60px 0; }
-      .club-chess__title, .club-chess__paragraph {
-        max-width: 280px; } }
+      .club-chess__title {
+        max-width: 280px;
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 0.9;
+        margin: 0 0 20px 0; }
+      .club-chess__paragraph {
+        max-width: 280px;
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.3;
+        margin: 0; } }
 
 .chess-board {
   display: block;
@@ -774,9 +768,23 @@ template {
   padding: 80px 0 172px 0;
   background: url("../assets/images/team-background.png") left calc(100% - 60px) no-repeat #5036e6; }
   .team__title {
-    max-width: 535px; }
+    max-width: 535px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.9;
+    color: #fff;
+    margin: 0 0 40px 0; }
   .team__paragraph {
-    max-width: 500px; }
+    max-width: 500px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    color: #fff;
+    margin: 0; }
   .team__question {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -789,8 +797,24 @@ template {
     -ms-flex-align: end;
     align-items: flex-end;
     padding: 250px 0 0 0; }
-    .team__question-title, .team__question-paragraph {
-      max-width: 520px; }
+    .team__question-title {
+      max-width: 520px;
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 70px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 0.9;
+      color: #fff;
+      margin: 0 0 40px 0; }
+    .team__question-paragraph {
+      max-width: 520px;
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.3;
+      color: #fff;
+      margin: 0; }
   @media only screen and (max-width: 1200px) {
     .team {
       background: url("../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
@@ -814,8 +838,36 @@ template {
         .team__question-title, .team__question-paragraph {
           max-width: 280px; } }
   @media only screen and (max-width: 576px) {
-    .team__question-title, .team__question-paragraph {
-      max-width: 280px; } }
+    .team__title {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 0.9;
+      margin: 0 0 20px 0; }
+    .team__paragraph {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.3;
+      margin: 0; }
+    .team__question-title {
+      max-width: 280px;
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 0.9;
+      margin: 0 0 20px 0; }
+    .team__question-paragraph {
+      max-width: 280px;
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.3;
+      margin: 0; } }
 
 .slider {
   padding: 110px 0 0 0; }
@@ -894,8 +946,23 @@ template {
 .wars {
   padding: 80px 0;
   background: url("../assets/images/wars-background.png") 100px bottom no-repeat #000; }
+  .wars__title {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.9;
+    color: #fff;
+    margin: 0 0 40px 0; }
   .wars__paragraph {
-    max-width: 490px; }
+    max-width: 490px;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    color: #fff;
+    margin: 0; }
   @media only screen and (max-width: 1024px) {
     .wars {
       padding: 50px 0 75px 0;
@@ -904,6 +971,21 @@ template {
     .wars {
       padding: 20px 0 20px 0;
       background-image: none; } }
+  @media only screen and (max-width: 576px) {
+    .wars__title {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 0.9;
+      margin: 0 0 20px 0; }
+    .wars__paragraph {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.3;
+      margin: 0; } }
 
 .footer {
   padding: 80px 0;
