@@ -23,7 +23,7 @@
     margin: 0 0 60px 0;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     &_header {
       @include font-parametrs($font-default, 13, 600, normal, 1.38);
       padding: 12px 24px 14px 24px;
@@ -34,7 +34,7 @@
     }
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     @include font-parametrs($font-default, 10, 600, normal, 1.8);
     padding: 6px 16px;
 

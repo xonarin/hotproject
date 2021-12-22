@@ -20,7 +20,7 @@
     margin: 0;
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 40px 0;
 
     &__paragraph {

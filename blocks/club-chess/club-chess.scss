@@ -23,13 +23,13 @@
     max-width: 470px;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     padding: 60px 0 45px 0;
     background: url("../assets/images/club-background-tablet.png") right 220px
       no-repeat $color-black;
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 50px 0 17px 0;
     background: url(../assets/images/club-background-mobile.png)
       calc(100% - 20px) 40px no-repeat #000;

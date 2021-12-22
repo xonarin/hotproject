@@ -10,7 +10,7 @@
     padding: 107px 0 0 0;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     &_club {
       padding: 212px 0 0 0;
     }
@@ -20,7 +20,7 @@
     }
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     max-width: 280px;
 
     &_club {

@@ -11,7 +11,7 @@
     margin: 0;
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     &__title {
       @include font-parametrs($font-default, 40, 600, normal, 0.9);
       margin: 0 0 20px 0;

@@ -23,13 +23,13 @@
     }
   }
 
-  @include mq(max-width 1200px) {
+  @include mq(max-width $mq-1200) {
     background: url("../../assets/images/team-background.png") -220px calc(
         100% - 50px
       ) no-repeat $color-purple;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     padding: 50px 0 121px 0;
     background: url("../../assets/images/team-background-tablet.png") left
       calc(100% - 50px) no-repeat $color-purple;
@@ -44,7 +44,7 @@
     }
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 20px 0 200px 0;
     background: url("../../assets/images/team-background-mobile.png") center
       bottom no-repeat $color-purple;

@@ -8,7 +8,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 0 20px;
   }
 }

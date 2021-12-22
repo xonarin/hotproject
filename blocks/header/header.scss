@@ -36,7 +36,7 @@
       background: url("../../assets/images/join-link.svg") 0 0 no-repeat;
     }
 
-    @include mq(max-width 1024px) {
+    @include mq(max-width $mq-1024) {
       @include font-parametrs($font-default, 13, 400, normal, 1.25);
       padding: 0 59px 0 0;
 
@@ -45,12 +45,12 @@
       }
     }
 
-    @include mq(max-width 767px) {
+    @include mq(max-width $mq-767) {
       display: none;
     }
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 16px 0 0 0;
   }
 }

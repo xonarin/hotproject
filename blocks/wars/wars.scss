@@ -11,13 +11,13 @@
     text-align: end;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     padding: 50px 0 75px 0;
     background: url("../../assets/images/wars-background-tablet.png") left
       bottom no-repeat $color-black;
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 20px 0 17px 0;
     background-image: none;
   }

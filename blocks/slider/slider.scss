@@ -47,12 +47,12 @@
     margin: 30px 0 0 0;
   }
 
-  @include mq(max-width 1024px) {
+  @include mq(max-width $mq-1024) {
     padding: 140px 0 0 0;
     cursor: pointer;
   }
 
-  @include mq(max-width 767px) {
+  @include mq(max-width $mq-767) {
     padding: 60px 0 0 0;
 
     &__item {
