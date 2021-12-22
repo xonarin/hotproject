@@ -9,4 +9,26 @@
   &_wars {
     padding: 107px 0 0 0;
   }
+
+  @include mq(max-width 1024px) {
+    &_club {
+      padding: 212px 0 0 0;
+    }
+
+    &_wars {
+      padding: 136px 0 0 0;
+    }
+  }
+
+  @include mq(max-width 767px) {
+    max-width: 280px;
+
+    &_club {
+      padding: 110px 0 0 0;
+    }
+
+    &_wars {
+      padding: 94px 0 0 0;
+    }
+  }
 }

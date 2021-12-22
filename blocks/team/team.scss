@@ -1,9 +1,7 @@
 .team {
   padding: 80px 0 172px 0;
-  background-image: url("../../assets/images/team-background.svg");
-  background-repeat: no-repeat;
-  background-position: left calc(100% - 58px);
-  background-color: $color-purple;
+  background: url("../../assets/images/team-background.png") left
+    calc(100% - 60px) no-repeat $color-purple;
 
   &__title {
     max-width: 535px;
@@ -19,12 +17,40 @@
     align-items: flex-end;
     padding: 250px 0 0 0;
 
-    &-title {
-      max-width: 520px;
-    }
-
+    &-title,
     &-paragraph {
       max-width: 520px;
+    }
+  }
+
+  @include mq(max-width 1200px) {
+    background: url("../../assets/images/team-background.png") -220px calc(
+        100% - 50px
+      ) no-repeat $color-purple;
+  }
+
+  @include mq(max-width 1024px) {
+    padding: 50px 0 121px 0;
+    background: url("../../assets/images/team-background-tablet.png") left
+      calc(100% - 50px) no-repeat $color-purple;
+
+    &__question {
+      padding: 171px 0 0 0;
+
+      &-title,
+      &-paragraph {
+        max-width: 478px;
+      }
+    }
+  }
+
+  @include mq(max-width 767px) {
+    padding: 20px 0 200px 0;
+    background: url("../../assets/images/team-background-mobile.png") center
+      bottom no-repeat $color-purple;
+
+    &__question {
+      padding: 62px 0 0 0;
     }
   }
 }

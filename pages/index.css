@@ -308,7 +308,7 @@ template {
   display: none; }
 
 @font-face {
-  font-family: 'swiper-icons';
+  font-family: "swiper-icons";
   src: url("data:application/font-woff;charset=utf-8;base64, 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") format("woff");
   font-weight: 400;
   font-style: normal; }
@@ -465,7 +465,7 @@ template {
   scroll-snap-type: y mandatory; }
 
 .swiper-centered > .swiper-wrapper::before {
-  content: '';
+  content: "";
   -ms-flex-negative: 0;
   flex-shrink: 0;
   -webkit-box-ordinal-group: 10000;
@@ -490,6 +490,18 @@ template {
 
 .swiper-centered > .swiper-wrapper > .swiper-slide {
   scroll-snap-align: center center; }
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 0 0; }
+  .swiper-pagination-bullet:last-child {
+    margin: 0; }
+  .swiper-pagination-bullet-active {
+    background: #fff; }
 
 /* CUSTOM FONTS
    =============================================== */
@@ -522,10 +534,16 @@ template {
   src: url("../assets/fonts/NotoSansBold/NotoSans-Bold.eot?") format("eot"), url("../assets/fonts/NotoSansBold/NotoSans-Bold.ttf") format("truetype"), url("../assets/fonts/NotoSansBold/NotoSans-Bold.woff") format("woff"), url("../assets/fonts/NotoSansBold/NotoSans-Bold.woff2") format("woff2"); }
 
 .container {
-  max-width: 1120px;
+  max-width: 1220px;
   min-width: 320px;
   margin: 0 auto;
-  padding: 0 50px; }
+  padding: 0 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+  @media only screen and (max-width: 767px) {
+    .container {
+      padding: 0 20px; } }
 
 .header {
   padding: 26px 0 0 0;
@@ -569,6 +587,22 @@ template {
       width: 11.07px;
       height: 12.81px;
       background: url("../../assets/images/join-link.svg") 0 0 no-repeat; }
+    @media only screen and (max-width: 1024px) {
+      .header__join-link {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.25;
+        padding: 0 59px 0 0; }
+        .header__join-link::after {
+          right: 39px; } }
+    @media only screen and (max-width: 767px) {
+      .header__join-link {
+        display: none; } }
+  @media only screen and (max-width: 767px) {
+    .header {
+      padding: 16px 0 0 0; } }
 
 .logo {
   width: 38px;
@@ -576,6 +610,17 @@ template {
   .logo_footer {
     display: block;
     margin: 0 0 60px 0; }
+  .logo_registration {
+    margin: 0 0 50px 0; }
+  @media only screen and (max-width: 1024px) {
+    .logo_header {
+      width: 26px;
+      height: 36px; }
+    .logo_footer {
+      margin: 0 0 38px 0; } }
+  @media only screen and (max-width: 767px) {
+    .logo_registration {
+      margin: 0 0 40px 0; } }
 
 .link-registration {
   font-family: "Noto Sans", Arial, sans-serif;
@@ -594,9 +639,37 @@ template {
   transition: all 0.2s ease-out; }
   .link-registration:hover {
     background-color: #066c4c; }
+  .link-registration_popup {
+    border: none;
+    margin: 253px 0 0 0;
+    cursor: pointer; }
   .link-registration_footer {
     display: inline-block;
     margin: 0 0 60px 0; }
+  @media only screen and (max-width: 1024px) {
+    .link-registration_header {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.38;
+      padding: 12px 24px 14px 24px; }
+    .link-registration_popup {
+      margin: 242px 0 15px 0; } }
+  @media only screen and (max-width: 767px) {
+    .link-registration {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.8;
+      padding: 6px 16px; }
+      .link-registration_header {
+        margin-left: auto; }
+      .link-registration_footer {
+        margin: 0 0 40px 0; }
+      .link-registration_popup {
+        margin: 142px 0 15px 0; } }
 
 .section__title {
   font-family: "Noto Sans", Arial, sans-serif;
@@ -616,14 +689,25 @@ template {
   color: #fff;
   margin: 0; }
 
+@media only screen and (max-width: 767px) {
+  .section__title {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.9;
+    margin: 0 0 20px 0; }
+  .section__paragraph {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    margin: 0; } }
+
 .club-chess {
   padding: 60px 0 75px 0;
-  background-image: url("../assets/images/club-background.svg");
-  background-size: cover;
-  background-size: 480px 640px;
-  background-repeat: no-repeat;
-  background-position: right 68px;
-  background-color: #000; }
+  background: url("../assets/images/club-background.png") right 68px no-repeat #000; }
   .club-chess__badge {
     display: inline-block;
     font-family: "Noto Sans", Arial, sans-serif;
@@ -642,6 +726,22 @@ template {
     max-width: 470px; }
   .club-chess__paragraph {
     max-width: 470px; }
+  @media only screen and (max-width: 1024px) {
+    .club-chess {
+      padding: 60px 0 45px 0;
+      background: url("../assets/images/club-background-tablet.png") right 220px no-repeat #000; } }
+  @media only screen and (max-width: 767px) {
+    .club-chess {
+      padding: 50px 0 17px 0;
+      background: url(../assets/images/club-background-mobile.png) calc(100% - 20px) 40px no-repeat #000; }
+      .club-chess__badge {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 0.9;
+        padding: 14.5px 17px 14.5px 14px;
+        margin: 0 0 60px 0; } }
 
 .chess-board {
   max-width: 416px;
@@ -650,13 +750,22 @@ template {
     padding: 182px 0 0 0; }
   .chess-board_wars {
     padding: 107px 0 0 0; }
+  @media only screen and (max-width: 1024px) {
+    .chess-board_club {
+      padding: 212px 0 0 0; }
+    .chess-board_wars {
+      padding: 136px 0 0 0; } }
+  @media only screen and (max-width: 767px) {
+    .chess-board {
+      max-width: 280px; }
+      .chess-board_club {
+        padding: 110px 0 0 0; }
+      .chess-board_wars {
+        padding: 94px 0 0 0; } }
 
 .team {
   padding: 80px 0 172px 0;
-  background-image: url("../../assets/images/team-background.svg");
-  background-repeat: no-repeat;
-  background-position: left calc(100% - 58px);
-  background-color: #5036e6; }
+  background: url("../../assets/images/team-background.png") left calc(100% - 60px) no-repeat #5036e6; }
   .team__title {
     max-width: 535px; }
   .team__paragraph {
@@ -673,10 +782,25 @@ template {
     -ms-flex-align: end;
     align-items: flex-end;
     padding: 250px 0 0 0; }
-    .team__question-title {
+    .team__question-title, .team__question-paragraph {
       max-width: 520px; }
-    .team__question-paragraph {
-      max-width: 520px; }
+  @media only screen and (max-width: 1200px) {
+    .team {
+      background: url("../../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
+  @media only screen and (max-width: 1024px) {
+    .team {
+      padding: 50px 0 121px 0;
+      background: url("../../assets/images/team-background-tablet.png") left calc(100% - 50px) no-repeat #5036e6; }
+      .team__question {
+        padding: 171px 0 0 0; }
+        .team__question-title, .team__question-paragraph {
+          max-width: 478px; } }
+  @media only screen and (max-width: 767px) {
+    .team {
+      padding: 20px 0 200px 0;
+      background: url("../../assets/images/team-background-mobile.png") center bottom no-repeat #5036e6; }
+      .team__question {
+        padding: 62px 0 0 0; } }
 
 .slider {
   padding: 110px 0 0 0; }
@@ -687,12 +811,7 @@ template {
   .slider__item {
     max-width: 320px;
     min-width: 320px;
-    margin: 0 80px 0 0;
-    cursor: pointer; }
-    @media (max-width: 767px) {
-      .slider__item {
-        max-width: 100%;
-        min-width: 100%; } }
+    margin: 0 80px 0 0; }
     .slider__item:last-child {
       margin: 0; }
   .slider__image {
@@ -719,17 +838,57 @@ template {
     font-style: normal;
     line-height: 1.3;
     color: #fff; }
+  .slider__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px 0 0 0; }
+  @media only screen and (max-width: 1024px) {
+    .slider {
+      padding: 140px 0 0 0;
+      cursor: pointer; } }
+  @media only screen and (max-width: 767px) {
+    .slider {
+      padding: 60px 0 0 0; }
+      .slider__item {
+        max-width: 100%;
+        min-width: 100%; }
+      .slider__name {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.3;
+        margin: 0 0 5px 0;
+        text-align: center; }
+      .slider__hobby {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.3;
+        text-align: center; }
+      .slider__image_team {
+        margin: 0 0 16px 0; } }
 
 .wars {
   padding: 80px 0 75px 0;
-  background-image: url("../../assets/images/wars-background.svg");
-  background-repeat: no-repeat;
-  background-position: 100px bottom;
-  background-color: #000; }
+  background: url("../../assets/images/wars-background.png") 100px bottom no-repeat #000; }
   .wars__paragraph {
     max-width: 490px; }
   .wars__board {
     text-align: end; }
+  @media only screen and (max-width: 1024px) {
+    .wars {
+      padding: 50px 0 75px 0;
+      background: url("../../assets/images/wars-background-tablet.png") left bottom no-repeat #000; } }
+  @media only screen and (max-width: 767px) {
+    .wars {
+      padding: 20px 0 17px 0;
+      background-image: none; } }
 
 .footer {
   padding: 80px 0;
@@ -761,3 +920,170 @@ template {
     line-height: 1.3;
     color: #8e9199;
     margin: 0; }
+  @media only screen and (max-width: 767px) {
+    .footer {
+      padding: 40px 0; }
+      .footer__paragraph {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.3;
+        margin: 0 0 10px 0; }
+      .footer__copyright {
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1; } }
+
+.popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #000;
+  z-index: 999;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  .popup_opened {
+    opacity: 1;
+    visibility: visible; }
+  .popup__container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center; }
+  .popup__title {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.9;
+    color: #fff;
+    margin: 0 0 75px 0; }
+  @media only screen and (max-width: 767px) {
+    .popup__title {
+      font-family: "Noto Sans", Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 0.9;
+      margin: 0 0 40px 0; } }
+
+.form__user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+.form__input {
+  width: 100%;
+  max-width: 500px;
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  padding: 14px 0 16px 28px;
+  margin: 0 0 20px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer; }
+  .form__input:hover {
+    background-color: rgba(26, 26, 26, 0.6); }
+  .form__input:focus {
+    outline: 1px solid #5036e6; }
+  .form__input:last-child {
+    margin: 0; }
+  .form__input::-webkit-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff; }
+  .form__input::-moz-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff; }
+  .form__input:-ms-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff; }
+  .form__input::-ms-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff; }
+  .form__input::placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff; }
+
+@media only screen and (max-width: 767px) {
+  .form__input {
+    padding: 12px 0 12px 18px;
+    margin: 0 0 10px 0; }
+  .form__input::-webkit-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; }
+  .form__input::-moz-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; }
+  .form__input:-ms-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; }
+  .form__input::-ms-input-placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; }
+  .form__input, .form__input::placeholder {
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; } }

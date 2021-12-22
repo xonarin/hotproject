@@ -1,9 +1,7 @@
 .wars {
   padding: 80px 0 75px 0;
-  background-image: url("../../assets/images/wars-background.svg");
-  background-repeat: no-repeat;
-  background-position: 100px bottom;
-  background-color: $color-black;
+  background: url("../../assets/images/wars-background.png") 100px bottom
+    no-repeat $color-black;
 
   &__paragraph {
     max-width: 490px;
@@ -11,5 +9,16 @@
 
   &__board {
     text-align: end;
+  }
+
+  @include mq(max-width 1024px) {
+    padding: 50px 0 75px 0;
+    background: url("../../assets/images/wars-background-tablet.png") left
+      bottom no-repeat $color-black;
+  }
+
+  @include mq(max-width 767px) {
+    padding: 20px 0 17px 0;
+    background-image: none;
   }
 }

@@ -1,11 +1,7 @@
 .club-chess {
   padding: 60px 0 75px 0;
-  background-image: url("../assets/images/club-background.svg");
-  background-size: cover;
-  background-size: 480px 640px;
-  background-repeat: no-repeat;
-  background-position: right 68px;
-  background-color: $color-black;
+  background: url("../assets/images/club-background.png") right 68px no-repeat
+    $color-black;
 
   &__badge {
     display: inline-block;
@@ -25,5 +21,23 @@
 
   &__paragraph {
     max-width: 470px;
+  }
+
+  @include mq(max-width 1024px) {
+    padding: 60px 0 45px 0;
+    background: url("../assets/images/club-background-tablet.png") right 220px
+      no-repeat $color-black;
+  }
+
+  @include mq(max-width 767px) {
+    padding: 50px 0 17px 0;
+    background: url(../assets/images/club-background-mobile.png)
+      calc(100% - 20px) 40px no-repeat #000;
+
+    &__badge {
+      @include font-parametrs($font-default, 12, 500, normal, 0.9);
+      padding: 14.5px 17px 14.5px 14px;
+      margin: 0 0 60px 0;
+    }
   }
 }

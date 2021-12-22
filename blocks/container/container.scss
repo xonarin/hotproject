@@ -1,8 +1,14 @@
 @import "../../assets/styles/mixins.scss";
 
 .container {
-  max-width: 1120px;
+  max-width: 1220px;
   min-width: 320px;
   margin: 0 auto;
   padding: 0 50px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  @include mq(max-width 767px) {
+    padding: 0 20px;
+  }
 }

@@ -6,4 +6,25 @@
     display: block;
     margin: 0 0 60px 0;
   }
+
+  &_registration {
+    margin: 0 0 50px 0;
+  }
+
+  @include mq(max-width 1024px) {
+    &_header {
+      width: 26px;
+      height: 36px;
+    }
+
+    &_footer {
+      margin: 0 0 38px 0;
+    }
+  }
+
+  @include mq(max-width 767px) {
+    &_registration {
+      margin: 0 0 40px 0;
+    }
+  }
 }

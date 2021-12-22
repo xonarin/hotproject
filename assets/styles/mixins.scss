@@ -56,3 +56,31 @@
   font-style: $font-style;
   line-height: $line-height;
 }
+
+// Media query
+@function mq-parse-query($query) {
+  $mq: "only screen ";
+
+  @if length($query) == 1 {
+    @return $mq + "and (min-width: " + $query + ")";
+  }
+
+  @if (
+    type-of(nth($query, 1)) == "string" and type-of(nth($query, 2)) == "number"
+  ) {
+    @return $mq + "and (" + nth($query, 1) + ": " + nth($query, 2) + ")";
+  }
+
+  @if (
+    type-of(nth($query, 1)) == "number" and type-of(nth($query, 2)) == "number"
+  ) {
+    @return $mq + "and (min-width: " + nth($query, 1) + ") and (max-width: " +
+      nth($query, 2) + " )";
+  }
+}
+
+@mixin mq($query) {
+  @media #{mq-parse-query($query)} {
+    @content;
+  }
+}
