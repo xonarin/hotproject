@@ -586,7 +586,7 @@ template {
       transform: translateY(-50%);
       width: 11.07px;
       height: 12.81px;
-      background: url("../../assets/images/join-link.svg") 0 0 no-repeat; }
+      background: url("../assets/images/join-link.svg") 0 0 no-repeat; }
     @media only screen and (max-width: 1024px) {
       .header__join-link {
         font-family: "Noto Sans", Arial, sans-serif;
@@ -594,13 +594,13 @@ template {
         font-weight: 400;
         font-style: normal;
         line-height: 1.25;
-        padding: 0 59px 0 0; }
+        padding: 0 50px 0 0; }
         .header__join-link::after {
-          right: 39px; } }
-    @media only screen and (max-width: 767px) {
+          right: 28px; } }
+    @media only screen and (max-width: 576px) {
       .header__join-link {
         display: none; } }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 576px) {
     .header {
       padding: 16px 0 0 0; } }
 
@@ -613,12 +613,12 @@ template {
   .logo_registration {
     margin: 0 0 50px 0; }
   @media only screen and (max-width: 1024px) {
+    .logo_footer {
+      margin: 0 0 38px 0; } }
+  @media only screen and (max-width: 576px) {
     .logo_header {
       width: 26px;
       height: 36px; }
-    .logo_footer {
-      margin: 0 0 38px 0; } }
-  @media only screen and (max-width: 767px) {
     .logo_registration {
       margin: 0 0 40px 0; } }
 
@@ -656,7 +656,7 @@ template {
       padding: 12px 24px 14px 24px; }
     .link-registration_popup {
       margin: 242px 0 15px 0; } }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 576px) {
     .link-registration {
       font-family: "Noto Sans", Arial, sans-serif;
       font-size: 10px;
@@ -689,7 +689,7 @@ template {
   color: #fff;
   margin: 0; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   .section__title {
     font-family: "Noto Sans", Arial, sans-serif;
     font-size: 40px;
@@ -706,7 +706,7 @@ template {
     margin: 0; } }
 
 .club-chess {
-  padding: 60px 0 75px 0;
+  padding: 60px 0 80px 0;
   background: url("../assets/images/club-background.png") right 68px no-repeat #000; }
   .club-chess__badge {
     display: inline-block;
@@ -728,12 +728,16 @@ template {
     max-width: 470px; }
   @media only screen and (max-width: 1024px) {
     .club-chess {
-      padding: 60px 0 45px 0;
+      padding: 60px 0 49px 0;
       background: url("../assets/images/club-background-tablet.png") right 220px no-repeat #000; } }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 640px) {
     .club-chess {
       padding: 50px 0 17px 0;
-      background: url(../assets/images/club-background-mobile.png) calc(100% - 20px) 40px no-repeat #000; }
+      background: url("../assets/images/club-background-tablet.png") calc(100% - -40px) 220px no-repeat #000; } }
+  @media only screen and (max-width: 576px) {
+    .club-chess {
+      padding: 50px 0 23px 0;
+      background: url("../assets/images/club-background-mobile.png") calc(100% - 20px) 40px no-repeat #000; }
       .club-chess__badge {
         font-family: "Noto Sans", Arial, sans-serif;
         font-size: 12px;
@@ -741,27 +745,30 @@ template {
         font-style: normal;
         line-height: 0.9;
         padding: 14.5px 17px 14.5px 14px;
-        margin: 0 0 60px 0; } }
+        margin: 0 0 60px 0; }
+      .club-chess__title, .club-chess__paragraph {
+        max-width: 280px; } }
 
 .chess-board {
+  display: block;
   max-width: 416px;
   height: auto; }
   .chess-board_club {
-    padding: 182px 0 0 0; }
+    margin: 182px 0 0 0; }
   .chess-board_wars {
-    padding: 107px 0 0 0; }
+    margin: 107px 0 0 auto; }
   @media only screen and (max-width: 1024px) {
     .chess-board_club {
-      padding: 212px 0 0 0; }
+      margin: 212px 0 0 0; }
     .chess-board_wars {
-      padding: 136px 0 0 0; } }
-  @media only screen and (max-width: 767px) {
+      margin: 136px 0 0 auto; } }
+  @media only screen and (max-width: 576px) {
     .chess-board {
       max-width: 280px; }
       .chess-board_club {
-        padding: 110px 0 0 0; }
+        margin: 110px 0 0 0; }
       .chess-board_wars {
-        padding: 94px 0 0 0; } }
+        margin: 60px auto 0 auto; } }
 
 .team {
   padding: 80px 0 172px 0;
@@ -795,12 +802,20 @@ template {
         padding: 171px 0 0 0; }
         .team__question-title, .team__question-paragraph {
           max-width: 478px; } }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 680px) {
     .team {
       padding: 20px 0 200px 0;
       background: url("../assets/images/team-background-mobile.png") center bottom no-repeat #5036e6; }
       .team__question {
-        padding: 62px 0 0 0; } }
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 62px 0 0 0; }
+        .team__question-title, .team__question-paragraph {
+          max-width: 280px; } }
+  @media only screen and (max-width: 576px) {
+    .team__question-title, .team__question-paragraph {
+      max-width: 280px; } }
 
 .slider {
   padding: 110px 0 0 0; }
@@ -843,7 +858,7 @@ template {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 30px 0 0 0; }
+    margin: 28px 0 0 0; }
   @media only screen and (max-width: 1024px) {
     .slider {
       padding: 140px 0 0 0;
@@ -877,19 +892,17 @@ template {
         display: flex; } }
 
 .wars {
-  padding: 80px 0 75px 0;
+  padding: 80px 0;
   background: url("../assets/images/wars-background.png") 100px bottom no-repeat #000; }
   .wars__paragraph {
     max-width: 490px; }
-  .wars__board {
-    text-align: end; }
   @media only screen and (max-width: 1024px) {
     .wars {
       padding: 50px 0 75px 0;
       background: url("../assets/images/wars-background-tablet.png") left bottom no-repeat #000; } }
   @media only screen and (max-width: 767px) {
     .wars {
-      padding: 20px 0 17px 0;
+      padding: 20px 0 20px 0;
       background-image: none; } }
 
 .footer {
@@ -966,7 +979,9 @@ template {
   .popup__container {
     width: 100%;
     max-width: 500px;
-    text-align: center; }
+    text-align: center;
+    -webkit-box-sizing: unset;
+    box-sizing: unset; }
   .popup__title {
     font-family: "Noto Sans", Arial, sans-serif;
     font-size: 34px;
@@ -982,7 +997,10 @@ template {
       font-weight: 600;
       font-style: normal;
       line-height: 0.9;
-      margin: 0 0 40px 0; } }
+      margin: 0 0 40px 0; }
+    .popup__container {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; } }
 
 .form__user-info {
   display: -webkit-box;

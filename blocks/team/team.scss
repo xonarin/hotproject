@@ -44,13 +44,28 @@
     }
   }
 
-  @include mq(max-width $mq-767) {
+  @include mq(max-width $mq-680) {
     padding: 20px 0 200px 0;
     background: url("../assets/images/team-background-mobile.png") center bottom
       no-repeat $color-purple;
 
     &__question {
+      align-items: flex-start;
       padding: 62px 0 0 0;
+
+      &-title,
+      &-paragraph {
+        max-width: 280px;
+      }
+    }
+  }
+
+  @include mq(max-width $mq-576) {
+    &__question {
+      &-title,
+      &-paragraph {
+        max-width: 280px;
+      }
     }
   }
 }

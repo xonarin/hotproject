@@ -12,17 +12,16 @@
   }
 
   @include mq(max-width $mq-1024) {
-    &_header {
-      width: 26px;
-      height: 36px;
-    }
-
     &_footer {
       margin: 0 0 38px 0;
     }
   }
 
-  @include mq(max-width $mq-767) {
+  @include mq(max-width $mq-576) {
+    &_header {
+      width: 26px;
+      height: 36px;
+    }
     &_registration {
       margin: 0 0 40px 0;
     }

@@ -1,14 +1,10 @@
 .wars {
-  padding: 80px 0 75px 0;
+  padding: 80px 0;
   background: url("../assets/images/wars-background.png") 100px bottom no-repeat
     $color-black;
 
   &__paragraph {
     max-width: 490px;
-  }
-
-  &__board {
-    text-align: end;
   }
 
   @include mq(max-width $mq-1024) {
@@ -18,7 +14,7 @@
   }
 
   @include mq(max-width $mq-767) {
-    padding: 20px 0 17px 0;
+    padding: 20px 0 20px 0;
     background-image: none;
   }
 }

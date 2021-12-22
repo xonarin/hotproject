@@ -1,5 +1,5 @@
 .club-chess {
-  padding: 60px 0 75px 0;
+  padding: 60px 0 80px 0;
   background: url("../assets/images/club-background.png") right 68px no-repeat
     $color-black;
 
@@ -24,20 +24,31 @@
   }
 
   @include mq(max-width $mq-1024) {
-    padding: 60px 0 45px 0;
+    padding: 60px 0 49px 0;
     background: url("../assets/images/club-background-tablet.png") right 220px
       no-repeat $color-black;
   }
 
-  @include mq(max-width $mq-767) {
+  @include mq(max-width $mq-640) {
     padding: 50px 0 17px 0;
-    background: url(../assets/images/club-background-mobile.png)
+    background: url("../assets/images/club-background-tablet.png")
+      calc(100% - -40px) 220px no-repeat #000;
+  }
+
+  @include mq(max-width $mq-576) {
+    padding: 50px 0 23px 0;
+    background: url("../assets/images/club-background-mobile.png")
       calc(100% - 20px) 40px no-repeat #000;
 
     &__badge {
       @include font-parametrs($font-default, 12, 500, normal, 0.9);
       padding: 14.5px 17px 14.5px 14px;
       margin: 0 0 60px 0;
+    }
+
+    &__title,
+    &__paragraph {
+      max-width: 280px;
     }
   }
 }

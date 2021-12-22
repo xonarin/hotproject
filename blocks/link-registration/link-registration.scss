@@ -34,7 +34,7 @@
     }
   }
 
-  @include mq(max-width $mq-767) {
+  @include mq(max-width $mq-576) {
     @include font-parametrs($font-default, 10, 600, normal, 1.8);
     padding: 6px 16px;
 

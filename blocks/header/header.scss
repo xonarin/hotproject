@@ -33,24 +33,24 @@
       transform: translateY(-50%);
       width: 11.07px;
       height: 12.81px;
-      background: url("../../assets/images/join-link.svg") 0 0 no-repeat;
+      background: url("../assets/images/join-link.svg") 0 0 no-repeat;
     }
 
     @include mq(max-width $mq-1024) {
       @include font-parametrs($font-default, 13, 400, normal, 1.25);
-      padding: 0 59px 0 0;
+      padding: 0 50px 0 0;
 
       &::after {
-        right: 39px;
+        right: 28px;
       }
     }
 
-    @include mq(max-width $mq-767) {
+    @include mq(max-width $mq-576) {
       display: none;
     }
   }
 
-  @include mq(max-width $mq-767) {
+  @include mq(max-width $mq-576) {
     padding: 16px 0 0 0;
   }
 }

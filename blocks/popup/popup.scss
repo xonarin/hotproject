@@ -21,6 +21,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center;
+    box-sizing: unset;
   }
 
   &__title {
@@ -33,6 +34,10 @@
     &__title {
       @include font-parametrs($font-default, 30, 600, normal, 0.9);
       margin: 0 0 40px 0;
+    }
+
+    &__container {
+      box-sizing: border-box;
     }
   }
 }
