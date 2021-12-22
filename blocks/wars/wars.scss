@@ -1,7 +1,7 @@
 .wars {
   padding: 80px 0 75px 0;
-  background: url("../../assets/images/wars-background.png") 100px bottom
-    no-repeat $color-black;
+  background: url("../assets/images/wars-background.png") 100px bottom no-repeat
+    $color-black;
 
   &__paragraph {
     max-width: 490px;
@@ -13,8 +13,8 @@
 
   @include mq(max-width $mq-1024) {
     padding: 50px 0 75px 0;
-    background: url("../../assets/images/wars-background-tablet.png") left
-      bottom no-repeat $color-black;
+    background: url("../assets/images/wars-background-tablet.png") left bottom
+      no-repeat $color-black;
   }
 
   @include mq(max-width $mq-767) {

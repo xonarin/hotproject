@@ -765,7 +765,7 @@ template {
 
 .team {
   padding: 80px 0 172px 0;
-  background: url("../../assets/images/team-background.png") left calc(100% - 60px) no-repeat #5036e6; }
+  background: url("../assets/images/team-background.png") left calc(100% - 60px) no-repeat #5036e6; }
   .team__title {
     max-width: 535px; }
   .team__paragraph {
@@ -786,11 +786,11 @@ template {
       max-width: 520px; }
   @media only screen and (max-width: 1200px) {
     .team {
-      background: url("../../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
+      background: url("../assets/images/team-background.png") -220px calc( 100% - 50px) no-repeat #5036e6; } }
   @media only screen and (max-width: 1024px) {
     .team {
       padding: 50px 0 121px 0;
-      background: url("../../assets/images/team-background-tablet.png") left calc(100% - 50px) no-repeat #5036e6; }
+      background: url("../assets/images/team-background-tablet.png") left calc(100% - 50px) no-repeat #5036e6; }
       .team__question {
         padding: 171px 0 0 0; }
         .team__question-title, .team__question-paragraph {
@@ -798,7 +798,7 @@ template {
   @media only screen and (max-width: 767px) {
     .team {
       padding: 20px 0 200px 0;
-      background: url("../../assets/images/team-background-mobile.png") center bottom no-repeat #5036e6; }
+      background: url("../assets/images/team-background-mobile.png") center bottom no-repeat #5036e6; }
       .team__question {
         padding: 62px 0 0 0; } }
 
@@ -839,9 +839,7 @@ template {
     line-height: 1.3;
     color: #fff; }
   .slider__pagination {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -872,11 +870,15 @@ template {
         line-height: 1.3;
         text-align: center; }
       .slider__image_team {
-        margin: 0 0 16px 0; } }
+        margin: 0 0 16px 0; }
+      .slider__pagination {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
 
 .wars {
   padding: 80px 0 75px 0;
-  background: url("../../assets/images/wars-background.png") 100px bottom no-repeat #000; }
+  background: url("../assets/images/wars-background.png") 100px bottom no-repeat #000; }
   .wars__paragraph {
     max-width: 490px; }
   .wars__board {
@@ -884,7 +886,7 @@ template {
   @media only screen and (max-width: 1024px) {
     .wars {
       padding: 50px 0 75px 0;
-      background: url("../../assets/images/wars-background-tablet.png") left bottom no-repeat #000; } }
+      background: url("../assets/images/wars-background-tablet.png") left bottom no-repeat #000; } }
   @media only screen and (max-width: 767px) {
     .wars {
       padding: 20px 0 17px 0;
