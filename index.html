@@ -1,0 +1,222 @@
+<!--Слайдеры работают
+на таблетке
+и на мобайл.
+
+Видео - https://radikal.ru/video/xSW0OrdjGYl
+
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__container container">
+        <a href="/" class="header__logo-link">
+          <img
+            src="./assets/images/logo.svg"
+            class="logo logo_header"
+            alt="Логотип"
+          />
+        </a>
+
+        <a href="#" class="header__join-link">Вступайте в клуб</a>
+
+        <a href="#" class="link-registration link-registration_header"
+          >Зарегистрироваться</a
+        >
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="club-chess">
+        <div class="club-chess__wrap container">
+          <span class="club-chess__badge">Клуб</span>
+
+          <h1 class="club-chess__title">Правильные шахматы</h1>
+
+          <p class="club-chess__paragraph">
+            Приходите к нам, играть в шахматы! Сразитесь классическом поединке,
+            блиц состязании и&nbsp;бою с гройсмейстером.
+          </p>
+
+          <img
+            src="./assets/images/chess-board.svg"
+            alt="Шахматная доска фиолетовая"
+            class="chess-board chess-board_club"
+          />
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="team__wrap container">
+          <h2 class="team__title">Наша команда</h2>
+
+          <p class="team__paragraph">
+            Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с
+            ними играть — одно удовольствие!
+          </p>
+
+          <div class="slider">
+            <ul class="slider__list swiper-wrapper">
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-andrey.jpg"
+                  alt="Андрей"
+                  class="slider__image slider__image_team"
+                />
+
+                <span class="slider__name">Андрей</span>
+                <span class="slider__hobby">Шахматист, писатель.</span>
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-nikita.jpg"
+                  alt="Никита"
+                  class="slider__image slider__image_team"
+                />
+
+                <span class="slider__name">Никита</span>
+                <span class="slider__hobby">Шахматист, кулинар.</span>
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/team-alexey.jpg"
+                  alt="Алексей"
+                  class="slider__image slider__image_team"
+                />
+
+                <span class="slider__name">Алексей</span>
+                <span class="slider__hobby">Шахматист, геймер.</span>
+              </li>
+            </ul>
+
+            <div class="swiper-pagination slider__pagination"></div>
+          </div>
+
+          <div class="team__question">
+            <h3 class="team__question-title">Хочешь в&nbsp;команду?</h3>
+
+            <p class="team__question-paragraph">
+              Свяжись с нами и мы обсудим все детали присоеденения к команде.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="wars">
+        <div class="wars__wrap container">
+          <h2 class="wars__title">Сражения</h2>
+
+          <p class="wars__paragraph">
+            Сражайтесь в парах и приятно проводите время. Если хотите прокачать
+            свои навыки — сыграйте с нашими шахматистами.
+          </p>
+
+          <div class="slider">
+            <ul class="slider__list swiper-wrapper">
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-duel.jpg"
+                  alt="Игра в шамхаты на скамейке"
+                  class="slider__image"
+                />
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-board.jpg"
+                  alt="Шамхатная доска"
+                  class="slider__image"
+                />
+              </li>
+
+              <li class="slider__item swiper-slide">
+                <img
+                  src="./assets/images/wars-time.jpg"
+                  alt="Шахматы на песке"
+                  class="slider__image"
+                />
+              </li>
+            </ul>
+
+            <div class="swiper-pagination slider__pagination"></div>
+          </div>
+
+          <img
+            src="./assets/images/chess-board-green.svg"
+            alt="Шахматная доска зелёная"
+            class="chess-board chess-board_wars"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrap container">
+        <img
+          src="./assets/images/logo.svg"
+          class="logo logo_footer"
+          alt="Логотип"
+        />
+
+        <a href="#" class="link-registration link-registration_footer"
+          >Зарегистрироваться</a
+        >
+
+        <p class="footer__paragraph">Шахматный клуб в Москве.</p>
+        <p class="footer__copyright">© Chees Club.</p>
+      </div>
+    </footer>
+
+    <section class="popup popup_registration">
+      <div class="popup__container container">
+        <img
+          src="./assets/images/logo.svg"
+          class="logo logo_header logo_registration"
+          alt="Логотип"
+        />
+
+        <h2 class="popup__title">Регистрация</h2>
+
+        <form action="#" class="form">
+          <fieldset class="form__user-info">
+            <input
+              type="text"
+              class="form__input"
+              name="name"
+              placeholder="Имя"
+              required
+            />
+            <input
+              type="email"
+              class="form__input"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </fieldset>
+
+          <button
+            type="submit"
+            class="form__submit link-registration link-registration_popup"
+          >
+            Зарегистрироваться
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./assets/scripts/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/slider-init.js"></script>
+    <script src="./assets/scripts/popup.js"></script>
+  </body>
+</html>

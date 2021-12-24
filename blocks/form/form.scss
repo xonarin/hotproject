@@ -1,0 +1,52 @@
+.form {
+  &__user-info {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 500px;
+    @include font-parametrs($font-default, 15, 400, normal, 1.2);
+    color: $color-white;
+    border: none;
+    border-radius: 8px;
+    background-color: $color-black-input;
+    padding: 14px 0 16px 28px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-black-input-hover;
+    }
+
+    &:focus {
+      outline: 1px solid $color-purple;
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &::placeholder {
+      @include font-parametrs($font-default, 15, 400, normal, 1.2);
+      color: $color-white;
+    }
+  }
+
+  @include mq(max-width $mq-767) {
+    &__input {
+      padding: 12px 0 12px 18px;
+      margin: 0 0 10px 0;
+    }
+
+    &__input,
+    &__input::placeholder {
+      @include font-parametrs($font-default, 12, 400, normal, 1.5);
+    }
+  }
+}

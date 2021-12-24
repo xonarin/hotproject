@@ -1,0 +1,35 @@
+.chess-board {
+  display: block;
+  max-width: 416px;
+  height: auto;
+
+  &_club {
+    margin: 182px 0 0 0;
+  }
+
+  &_wars {
+    margin: 107px 0 0 auto;
+  }
+
+  @include mq(max-width $mq-1024) {
+    &_club {
+      margin: 212px 0 0 0;
+    }
+
+    &_wars {
+      margin: 136px 0 0 auto;
+    }
+  }
+
+  @include mq(max-width $mq-576) {
+    max-width: 280px;
+
+    &_club {
+      margin: 110px 0 0 0;
+    }
+
+    &_wars {
+      margin: 60px auto 0 auto;
+    }
+  }
+}
